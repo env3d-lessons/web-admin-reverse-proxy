@@ -126,6 +126,6 @@ Clone the assignment repo into your ${HOME} directory, then execute `pytest` in 
 
 When you are satisified, run the following commands to submit:
 
-    - `git add -A`
-    - `git commit -a -m 'submit'`
-    - `git push`
+  - `git add -A`
+  - `git commit -a -m 'submit'`
+  - `git push`
