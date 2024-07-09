@@ -121,6 +121,13 @@ one single AWS EC2 Linux instance.
 
 # Hand-in
 
+If you have completed the above steps, you would have created/modified the following
+files:
+
+  - `~/full-stack-example-1`
+  - `/etc/apache2/sites-available/000-default.conf`
+  - `/var/www/html/full-stack-app/index.html`
+
 Clone the assignment repo into your ${HOME} directory, then execute `pytest` in the
 `${HOME}/${ASSIGNMENT_REPO}/` to check if you got everything correct.
 
