@@ -56,7 +56,7 @@ one single AWS EC2 Linux instance.
      # make sure git is installed and clone the repo into ./app
      git clone https://github.com/env3d/full-stack-example-1.git
      # enter the app directory and install dependencies
-     cd app; npm install
+     cd full-stack-example-1; npm install
 
      ```
   1. Launch this node app by issuing the `nohup npm start &` command.
