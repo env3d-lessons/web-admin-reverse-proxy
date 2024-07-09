@@ -84,14 +84,14 @@ one single AWS EC2 Linux instance.
 	 
        - Your apache configuration `/etc/apache2/sites-available/000-default.conf` file
          should look have the following directives:
-	 
-	 ```
+
+         ```
          <VirtualHost *:80>
                  DocumentRoot /var/www/html
                  ProxyPass /full-stack-example-1 http://localhost:8080
                  ProxyPassReverse /full-stack-example-1 http://localhost:8080
          </VirtualHost>
-	 ```
+         ```
 	 
          This is how my APIs are deployed
 
