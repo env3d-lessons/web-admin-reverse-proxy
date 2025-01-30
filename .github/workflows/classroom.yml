@@ -18,7 +18,7 @@ jobs:
       uses: classroom-resources/autograding-python-grader@v1
       with:
         timeout: 10
-        max-score: 16
+        max-score: 5
         setup-command: apt-get update && apt-get -y install curl wget 
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
