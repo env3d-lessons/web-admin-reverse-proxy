@@ -69,9 +69,9 @@ one single AWS EC2 Linux instance.
 	 
        - NOTE: the node js app is running under the user ubuntu
 
-  1. Modify your apache vhost configuration so that the /full-stack-api path of your
-     web server acts as a reverse proxy to localhost.  If you do this correctly,
-     http://xxx.wmdd4950.com/full-stack-api  (where xxx is your sub-domain) will point
+  1. Modify your apache vhost configuration so that the /full-stack-example-1 path of your
+     web server acts as a reverse proxy to your node app on localhost.  If you do this correctly,
+     http://xxx.wmdd4950.com/full-stack-example-1  (where xxx is your sub-domain) will point
      to localhost:8080 (your running node app).
 
        - Take a look inside the `~/full-stack-example-1/index.js` file to which routes
